@@ -7,7 +7,7 @@ alunos = 0
 medias = 0
 contador = 1
 
-while alunos < 10:
+while alunos < 3:
     print("\nInsira as notas abaixo: ")
     not1 = float(input("Insira a primeira nota: "))
     not2 = float(input("Insira a segunda nota: "))
@@ -21,6 +21,6 @@ while alunos < 10:
     medias += media
 
 
-media_final = medias / 10
-print(f'\nA média de todos os alunos é {media_final}\n')
+media_final = medias / 3
+print(f'\nA média de todos os alunos é {media_final:.2f}\n')
     
